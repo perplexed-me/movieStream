@@ -1,5 +1,17 @@
 {
-  "src": "/(.*\\.(html|js|css|jpg|png))",
-  "dest": "/$1"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*\\.html)",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.js)",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.css)",
+      "dest": "/$1"
+    }
+  ]
 }
-
