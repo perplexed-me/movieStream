@@ -1,9 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "src": "/(.*\\.(html|js|css|jpg|png))",
+  "dest": "/$1"
 }
+
